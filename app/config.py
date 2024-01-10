@@ -1,5 +1,7 @@
 from pydantic_settings import BaseSettings
 
+
+# sets the database to the  API using the .env file for sensitive information
 class Settings(BaseSettings):
     database_hostname: str
     database_port: str
